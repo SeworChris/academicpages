@@ -23,7 +23,6 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Christian Sewor"
-  pronouns         : # example: "she/her"  
   bio              : "PhD Candidate, Department of Environmental and Radiological Health Sciences, Colorado State University"
   location         : "Fort Collins, Colorado"
   employer         : "Colorado State University"
@@ -38,7 +37,6 @@ author:
 
   # Repositories and software development
   github           : "SeworChris"
-
 
   # Social media
   linkedin         : "https://www.linkedin.com/in/christian-sewor-63576a105/"

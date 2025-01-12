@@ -6,31 +6,175 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">You can also find my articles on <a href="{{https://scholar.google.com/citations?user=FKAAZQkAAAAJ&hl=en}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+ </section>
+    <section id="publications">
+        <strong>Under Review</strong>
+        <ul>
+            <li>
+                <font color="red">Sewor, C.</font>, Rappazzo, K.M., Clark, M.L., The potential effect modifying role of nutrition, physical activity, and body mass
+                index on the association between air pollution and adverse birth and early-life health outcomes: A scoping review.
+                <b><i>Under Review</i></b>
+            </li>
+        <p> 
+        </p> <!-- Second extra paragraph -->
+        <p> 
+        </p> <!-- First extra paragraph -->
+        <p>
+        </p> <!-- Second extra paragraph -->
+            <li>
+                Joseph, A.,* <font color="red">Sewor, C.*</font>, Kodapally, B.,  Manda, C., Joseph, J., Mathews, E. The burden of prediabetes in Low- and
+                Middle-income countries: A systematic review and meta-analysis. <b><i>Under Review. (*Joint 
+                    First Author)</i></b>
+            </li>
+        <p></p> <!-- Second extra paragraph -->
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- Second extra paragraph -->
+        </ul>
+    </p>
+    <p>
+        <strong>Published Papers and Book Chapters</strong>
+        <ul>
+            <li>
+                Amegah, A., Ayinemi, R., <font color="red">Sewor, C.</font>,Fenta, H., Yeboah, K., Mohammed, S.,  Dwomoh, D., Annim, S., Stranges, S., Kandala, N. B.
+                Kandala, N. Birth weight mediates the association of maternal undernutrition with child undernutrition prevalence
+                in West Africa. <a href="https://doi.org/10.1038/s41430-024-01453-5" target="_blank">https://doi.org/10.1038/s41430-024-01453-5</a>
+            </li>
+        <p></p> <!-- Second extra paragraph -->
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- Second extra paragraph -->
+            <li>
+                Amegah, A. & <font color="red">Sewor, C.</font> (2024). Chapter 61: Public Policy on Children's Environmental Health in Africa In
+                Textbook of Children's Environmental Health Second Edition. Oxford University Press. <a href="https://doi.org/10.1093/oso/9780197662526.003.0061" target="_blank">https://doi.org/10.1093/oso/9780197662526.003.0061
+</a>
+            </li>
+        <p></p> <!-- Second extra paragraph -->
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- Second extra paragraph -->
+            <li>
+                <font color="red">Sewor, C.</font>, Rajeev, J (2023). Trends of Risk Factors associated with Childhood Stunting and Anaemia in Ghana: Evidence from
+                the Demographic Health Survey and Multiple Indicator Cluster Survey (2003-2017). Public Health Nutrition, 27(1), e29. <a href="https://doi.org/10.1017/S1368980023002951" target="_blank">https://doi.org/10.1017/S1368980023002951</a> 
+            </li>
+        <p></p> <!-- Second extra paragraph -->
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- Second extra paragraph -->
+            <li>
+                <font color="red">Sewor, C.*</font>, Eliason, S., Jaakkola, J. J. K., & Amegah, A. K*. (2023). Dietary Polycyclic Aromatic Hydrocarbon (PAH)
+                consumption and risk of adverse birth outcomes: A systematic review and meta-analysis. Environmental Health Perspectives,132 (1) 
+                <a href="https://ehp.niehs.nih.gov/doi/10.1289/EHP12922" target="_blank">https://ehp.niehs.nih.gov/doi/10.1289/EHP12922</a>. <b><i>(*Joint First Author)</i></b>
+            </li>
+        <p></p> <!-- Second extra paragraph -->
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- Second extra paragraph -->
+            <li>
+                <font color="red">Sewor, C.</font>, Obeng, A. A., Eliason, S., Agbeno, E. K., & Amegah, A. K. (2024). Fruits and vegetables intake improves
+                birth outcomes of women with gestational diabetes mellitus and hypertensive disorders of pregnancy. BMC Nutr,10 (2).
+                <a href="https://doi.org/10.1186/s40795-023-00814-w" target="_blank">https://doi.org/10.1186/s40795-023-00814-w</a>
+            </li>
+        <p></p> <!-- Second extra paragraph -->
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- Second extra paragraph -->
+            <li>
+                Valappil, H. C., Jayalakshmi, R., & <font color="red">Sewor, C.</font>. (2023). Intersectional inequalities in exclusive breastfeeding
+                practices in India: analysis of national family health survey-4. International breastfeeding journal, 18(1),
+                44. <a href="https://doi.org/10.1186/s13006-023-00577-x" target="_blank">https://doi.org/10.1186/s13006-023-00577-x</a>
+            </li>
+        <p></p> <!-- Second extra paragraph -->
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- Second extra paragraph -->
+            <li>
+                Jayalakshmi, R., <font color="red">Sewor, C.</font>, & Kannan, S. (2023). Intraindividual double burden of malnutrition among women (15–49 years)
+                in India, Myanmar, and Nepal: evidence from the recent Demographic and Health Surveys. European Journal of Clinical
+                Nutrition, 1-8. <a href="https://doi.org/10.1038/s41430-023-01269-9" target="_blank">https://doi.org/10.1038/s41430-023-01269-9</a>
+            </li>
+        <p></p> <!-- Second extra paragraph -->
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- Second extra paragraph -->
+            <li>
+                Dwomoh, D., <font color="red">Sewor, C.</font>, Annim, S. K., Stranges, S., Kandala, N. B., & Amegah, A. K. (2022). Do dietary practices and
+                household environmental quality mediate socio-economic inequalities in child undernutrition risk in West Africa? Public
+                Health Nutrition, 1-12. <a href="https://doi.org/10.1017/S1368980022002269" target="_blank">https://doi.org/10.1017/S1368980022002269</a>
+            </li>
+        <p></p> <!-- Second extra paragraph -->
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- Second extra paragraph -->
+            <li>
+                Dwomoh, D., <font color="red">Sewor, C.</font>, Mohammed, S., Annim, S., Stranges, S., Kandala, N., & Amegah, A. (2022). Secular trends in low
+                birth weight and child undernutrition in West Africa: Evidence from complex nationwide surveys, 1985-2019. Public Health
+                Nutrition, 1-29. <a href="https://doi.org/10.1017/S1368980022000155" target="_blank">https://doi.org/10.1017/S1368980022000155</a>
+            </li>
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- Second extra paragraph -->
+            <li>
+                Sakyi, S. A., Wilson, M. D., Adu, B., Opoku, S., Brewoo, A., Larbi, A., ...  <font color="red">Sewor, C.</font>, & Amoani, B. (2022). Plasmodium
+                falciparum coinfection is associated with improved IgE and IgG3 response against hookworm antigens. Health Science
+                Reports, 5(4), e672 <a href="https://doi.org/10.1002/hsr2.672" target="_blank">https://doi.org/10.1002/hsr2.672</a>
+            </li>
+        <p></p> <!-- Second extra paragraph -->
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- Second extra paragraph -->
+            <li>
+                Amoani, B., Nakotey, G. K., Sakyi, S. A., Pomeyie, K., & <font color="red">Sewor, C.</font> (2022). Treatment Failure, Knowledge, Attitude and
+                Practices Related to Schistosomiasis and Soil-Transmitted Helminthic Infections among Basic School Pupils. In New
+                Horizons for Schistosomiasis Research. IntechOpen. <a href="https://doi.org/10.5772/intechopen.103904" 
+                                                                       target="_blank">https://doi.org/10.5772/intechopen.103904</a>
+            </li>
+        <p></p> <!-- Second extra paragraph -->
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- Second extra paragraph -->
+            <li>
+                Amegah, A. K, <font color="red">Sewor, C.</font>, Obeng, A. A., Coker. S. E., Eliason, S., (2021). Vitamin D intake modifies the association of
+                household air pollution exposure with maternal disorders of pregnancy. Indoor Air. 2021;00:1– 13.
+                <a href="https://doi.org/10.1111/ina.12963" target="_blank">https://doi.org/10.1111/ina.12963</a>                                                               
+            </li>
+        <p></p> <!-- Second extra paragraph -->
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- Second extra paragraph -->
+            <li>
+                <font color="red">Sewor, C.</font>, Obeng, A. A., & Amegah, A. K. (2021). Commentary: The Ghana Urban Air Quality Project (GHAir): Bridging air
+                pollution data gaps in Ghana. Clean Air Journal, 31(1). <a href="https://doi.org/10.17159/caj/2021/31/1.11172"
+                                                                    target="_blank">https://doi.org/10.17159/caj/2021/31/1.11172</a>
+            </li>
+        <p></p> <!-- Second extra paragraph -->
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- Second extra paragraph -->
+            <li>
+                Amegah, A. K., <font color="red">Sewor, C.</font>, & Jaakkola, J. J. K. (2021). Cadmium exposure and risk of adverse pregnancy and birth
+                outcomes: a systematic review and dose-response meta-analysis of cohort and cohort-based case-control studies. J Expo
+                Sci Environ Epidemiol.  <a href="https://doi.org/10.1038/s41370-021-00289-6"
+                                            target="_blank">https://doi.org/10.1038/s41370-021-00289-6</a>
+            </li>
+        <p></p> <!-- Second extra paragraph -->
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- Second extra paragraph -->
+            <li>
+                Amoani, B., Gyan, B., Sakyi, S. A., Abu, E. K., Nuvor, S. V., Barnes, P., . . . <font color="red">Sewor, C.</font>, Adu, B. (2021). Effect of
+                hookworm infection and anthelmintic treatment on naturally acquired antibody responses against the GMZ2 malaria vaccine
+                candidate and constituent antigens. BMC Infect Dis, 21(1), 332. <a href="https://doi.org/10.1186/s12879-021-06027-5" 
+                target="_blank">https://doi.org/10.1186/s12879-021-06027-5</a>
+            </li>
+        <p></p> <!-- Second extra paragraph -->
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- Second extra paragraph -->
+            <li>
+                Amoani, B., Sakyi, S. A., Barnie, P. A., Pomeyie, K., Aniagyei, W., Opoku, S., ..., <font color="red">Sewor, C.</font>, Saahene, R. O. (2021). Effect of ART
+                on Cytokine Profile amongst HIV Patients: A Systematic Review and Meta-Analysis. Focus On Medical Sciences Journal, 7(3).
+                <a         
+href="https://www.researchgate.net/publication/358266364_Effect_of_ART_on_Cytokine_Profile_amongst_HIV_Patients_A_Systematic_Review_and_Meta-Analysis" target="_blank">https://www.researchgate.net/publication/358266364_Effect_of_ART_on_Cytokine_Profile_amongst_HIV_Patients_A_Systematic_Review_and_Meta-Analysis</a>
+            </li>
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- First extra paragraph -->
+        <p></p> <!-- Second extra paragraph -->
+            <li>
+                Combey, R., Amekugee, E., <font color="red">Sewor, C.</font>, Combey, T., & Kwapong, P. (2020). Impact of Variation in Air Quality, Humidity and
+                Temperature on Four Nest Entrance Activities of Hypotrigona gribodoi. Archives of Applied Science Research, 12(1), 1–16
+<a                                     href="https://www.researchgate.net/publication/341610511_Impact_of_Variation_in_Air_Quality_Humidity_and_Temperature_on_Four_Nest_Entrance_Activities_of_Hypotrigona_gribodoi" target="_blank">https://www.researchgate.net/publication/341610511_Impact_of_Variation_in_Air_Quality_Humidity_and_Temperature_on_Four_Nest_Entrance_Activities_of_Hypotrigona_gribodoi</a>
+                
+            </li>    
+        </ul>
+</section>

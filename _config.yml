@@ -22,12 +22,11 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Christian Sewor"
-  bio              : "PhD Candidate, Department of Environmental and Radiological Health Sciences, Colorado State University"
-  location         : "Fort Collins, Colorado"
-  employer         : "Colorado State University"
+  name             : "Christian Sewor,PhD"
+  location         : "Montreal, QC"
+  employer         : "McGill University"
   uri              : # URL
-  email            : "seworchristian@gmail.com;christian.sewor@colostate.edu" 
+  email            : "seworchristian@gmail.com;christian.sewor@mcgill.ca" 
 
   # Academic websites
   googlescholar    : "https://scholar.google.com/citations?user=FKAAZQkAAAAJ&hl=en"

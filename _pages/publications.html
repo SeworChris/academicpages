@@ -8,7 +8,7 @@ author_profile: true
 {% if site.author.googlescholar %}
 <div class="wordwrap">
   You can also find my articles on
-  <a href="https://scholar.google.com/citations?user=FKAAZQkAAAAJ&hl=en" target="_blank">
+  <a href="https://scholar.google.com/citations?user=FKAAZQkAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
     my Google Scholar profile
   </a>.
 </div>
@@ -16,115 +16,315 @@ author_profile: true
 
 {% include base_path %}
 
-<ul>
+<style>
+  .publication-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1.5em;
+  }
 
-<li>
-GBD 2023 LDL Cholesterol Collaborators, Razo, C., DeCleene, N. K., Johnson, C. O., Stark, B. A., LeGrand, K., ... & Amini, S. (2026).
-<i>Global burden of elevated LDL-C: findings from the Global Burden of Disease Study 2023.</i>
-JAMA.
-<a href="https://doi.org/10.1001/jama.2026.8628" target="_blank">DOI</a>
-</li>
+  .publication-list li {
+    margin-bottom: 1.5em;
+    line-height: 1.7;
+  }
 
-<br>
+  .author-highlight {
+    color: red;
+  }
 
-<li>
-<strong style="color:red;">Sewor, C.</strong>, Tanner, K., Cleveland, V., Young, B. N., L’Orange, C., Witinok-Huber, R.,
-Balmes, J. R., Kalisa, E., Zurba, L., Ntakirutimana, T., Keller, K., Chang, H., Volckens, J., & Clark, M. L. (2026).
-<i>Prevalence of hypertension and cross-sectional associations between household air pollution exposure and blood pressure among children in rural Rwanda.</i>
-Environmental Research: Health.
-<a href="https://doi.org/10.1088/2752-5309/ae8ff9" target="_blank">DOI</a>
-</li>
+  .publication-list a {
+    overflow-wrap: anywhere;
+  }
+</style>
 
-<br>
+<ul class="publication-list">
 
-<li>
-Faith, J., et al. (2026).
-<i>Global, regional, and national levels and trends in maternal mortality, progress towards the Sustainable Development Goals, and mortality from COVID-19 infection in pregnant women, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023.</i>
-The Lancet Obstetrics, Gynaecology & Women's Health.
-00047-6" target="_blank">DOI</a>
-</li>
+  <li>
+    GBD 2023 LDL Cholesterol Collaborators, Razo, C., DeCleene, N. K.,
+    Johnson, C. O., Stark, B. A., LeGrand, K., ... &amp; Amini, S. (2026).
+    Global burden of elevated LDL-C: findings from the Global Burden of
+    Disease Study 2023. <i>JAMA</i>.
+    <a href="https://doi.org/10.1001/jama.2026.8628" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1001/jama.2026.8628
+    </a>
+  </li>
 
-<br>
+  <li>
+    <span class="author-highlight">Sewor, C.</span>, Tanner, K., Cleveland, V.,
+    Young, B. N., L’Orange, C., Witinok-Huber, R., Balmes, J. R., Kalisa, E.,
+    Zurba, L., Ntakirutimana, T., Keller, K., Chang, H., Volckens, J.,
+    &amp; Clark, M. L. (2026).
+    Prevalence of hypertension and cross-sectional associations between
+    household air pollution exposure and blood pressure among children in
+    rural Rwanda. <i>Environmental Research: Health</i>.
+    <a href="https://doi.org/10.1088/2752-5309/ae8ff9" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1088/2752-5309/ae8ff9
+    </a>
+  </li>
 
-<li>
-Hay, S. I., et al. (2025).
-<i>Burden of 375 diseases and injuries, risk-attributable burden of 88 risk factors, and healthy life expectancy in 204 countries and territories, including 660 subnational locations, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023.</i>
-The Lancet.
-01637-X" target="_blank">DOI</a>
-</li>
+  <li>
+    Faith, J., et al. (2026).
+    Global, regional, and national levels and trends in maternal mortality,
+    progress towards the Sustainable Development Goals, and mortality from
+    COVID-19 infection in pregnant women, 1990–2023: a systematic analysis
+    for the Global Burden of Disease Study 2023.
+    <i>The Lancet Obstetrics, Gynaecology, &amp; Women's Health</i>.
+    <a href="https://doi.org/10.1016/S3050-5038(26)00047-6" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1016/S3050-5038(26)00047-6
+    </a>
+  </li>
 
-<br>
+  <li>
+    Hay, S. I., et al. (2025).
+    Burden of 375 diseases and injuries, risk-attributable burden of 88 risk
+    factors, and healthy life expectancy in 204 countries and territories,
+    including 660 subnational locations, 1990–2023: a systematic analysis
+    for the Global Burden of Disease Study 2023.
+    <i>The Lancet</i>.
+    <a href="https://doi.org/10.1016/S0140-6736(25)01637-X" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1016/S0140-6736(25)01637-X
+    </a>
+  </li>
 
-<li>
-Global Burden of Cardiovascular Diseases and Risks 2023 Collaborators. (2025).
-<i>Global, regional, and national burden of cardiovascular diseases and risk factors in 204 countries and territories, 1990–2023.</i>
-Journal of the American College of Cardiology.
-<a href="https://doi.org/10.1016/j.jacc.2025.08.015" target="_blank">DOI</a>
-</li>
+  <li>
+    Global Burden of Cardiovascular Diseases and Risks 2023 Collaborators.
+    (2025). Global, regional, and national burden of cardiovascular diseases
+    and risk factors in 204 countries and territories, 1990–2023.
+    <i>Journal of the American College of Cardiology</i>.
+    <a href="https://www.jacc.org/doi/10.1016/j.jacc.2025.08.015" target="_blank" rel="noopener noreferrer">
+      https://www.jacc.org/doi/10.1016/j.jacc.2025.08.015
+    </a>
+  </li>
 
-<br>
+  <li>
+    Tetteh Danquah, A., Courtin, D., Asamoah Sakyi, S., Nakotey, G. K.,
+    Tchum, S. K., Afriyie Duah, N., Lagrave, A.,
+    <span class="author-highlight">Sewor, C.</span>, &amp; Amoani, B. (2025).
+    HLA-G 14 bp polymorphism: Implications and its associated risk to malaria
+    severity among iron-fortified Ghanaian infants and young children.
+    <i>PLOS ONE</i>, e0322524.
+    <a href="https://doi.org/10.1371/journal.pone.0322524" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1371/journal.pone.0322524
+    </a>
+  </li>
 
-<li>
-Tetteh Danquah, A., Courtin, D., Asamoah Sakyi, S., Nakotey, G. K., Tchum, S. K., Afriyie Duah, N.,
-Lagrave, A., <strong style="color:red;">Sewor, C.</strong>, & Amoani, B. (2025).
-<i>HLA-G 14 bp polymorphism: Implications and its associated risk to malaria severity among iron-fortified Ghanaian infants and young children.</i>
-PLOS ONE, e0322524.
-<a href="https://doi.org/10.1371/journal.pone.0322524" target="_blank">DOI</a>
-</li>
+  <li>
+    <span class="author-highlight">Sewor, C.</span>, Rappazzo, K., &amp;
+    Clark, M. L. (2025).
+    The potential effect modifying role of nutrition, physical activity, and
+    body mass index on the association between air pollution and adverse birth
+    and early-life health outcomes: A scoping review.
+    <i>Environmental Research Communications</i>.
+    <a href="https://doi.org/10.1088/2515-7620/adc903" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1088/2515-7620/adc903
+    </a>
+  </li>
 
-<br>
+  <li>
+    Joseph, A.,* <span class="author-highlight">Sewor, C.*</span>, Kodapally,
+    B., Manda, C., Joseph, J., &amp; Mathews, E.
+    The burden of prediabetes in low- and middle-income countries:
+    A systematic review and meta-analysis.
+    <i>European Journal of Clinical Nutrition</i>.
+    <a href="https://doi.org/10.1038/s41430-025-01578-1" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1038/s41430-025-01578-1
+    </a>
+    <b><i>(*Joint first authors)</i></b>
+  </li>
 
-<li>
-<strong style="color:red;">Sewor, C.</strong>, Rappazzo, K., & Clark, M. L. (2025).
-<i>The potential effect modifying role of nutrition, physical activity, and body mass index on the association between air pollution and adverse birth and early-life health outcomes: A scoping review.</i>
-Environmental Research Communications.
-<a href="https://doi.org/10.1088/2515-7620/adc903" target="_blank">DOI</a>
-</li>
+  <li>
+    Amegah, A., Ayinemi, R., <span class="author-highlight">Sewor, C.</span>,
+    Fenta, H., Yeboah, K., Mohammed, S., Dwomoh, D., Annim, S., Stranges, S.,
+    &amp; Kandala, N. B.
+    Birth weight mediates the association of maternal undernutrition with
+    child undernutrition prevalence in West Africa.
+    <i>European Journal of Clinical Nutrition</i>.
+    <a href="https://doi.org/10.1038/s41430-024-01453-5" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1038/s41430-024-01453-5
+    </a>
+  </li>
 
-<br>
+  <li>
+    Amegah, A. &amp; <span class="author-highlight">Sewor, C.</span> (2024).
+    Chapter 61: Public Policy on Children's Environmental Health in Africa.
+    In <i>Textbook of Children's Environmental Health</i> (Second Edition).
+    Oxford University Press.
+    <a href="https://doi.org/10.1093/oso/9780197662526.003.0061" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1093/oso/9780197662526.003.0061
+    </a>
+  </li>
 
-<li>
-Joseph, A.*, <strong style="color:red;">Sewor, C.*</strong>, Kodapally, B., Manda, C., Joseph, J., Mathews, E.
-<i>The burden of prediabetes in Low- and Middle-income countries: A systematic review and meta-analysis.</i>
-<a href="https://doi.org/10.1038/s41430-025-01578-1" target="_blank">DOI</a>
-<strong><em>(*Joint First Author)</em></strong>
-</li>
+  <li>
+    <span class="author-highlight">Sewor, C.</span>, Rajeev, J. (2023).
+    Trends of risk factors associated with childhood stunting and anaemia
+    in Ghana: Evidence from the Demographic and Health Survey and Multiple
+    Indicator Cluster Survey (2003–2017).
+    <i>Public Health Nutrition, 27</i>(1), e29.
+    <a href="https://doi.org/10.1017/S1368980023002951" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1017/S1368980023002951
+    </a>
+  </li>
 
-<br>
+  <li>
+    <span class="author-highlight">Sewor, C.*</span>, Eliason, S., Jaakkola,
+    J. J. K., &amp; Amegah, A. K.* (2023).
+    Dietary polycyclic aromatic hydrocarbon (PAH) consumption and risk of
+    adverse birth outcomes: A systematic review and meta-analysis.
+    <i>Environmental Health Perspectives, 132</i>(1).
+    <a href="https://ehp.niehs.nih.gov/doi/10.1289/EHP12922" target="_blank" rel="noopener noreferrer">
+      https://ehp.niehs.nih.gov/doi/10.1289/EHP12922
+    </a>
+    <b><i>(*Joint first authors)</i></b>
+  </li>
 
-<li>
-Amegah, A., Ayinemi, R., <strong style="color:red;">Sewor, C.</strong>, Fenta, H., Yeboah, K., Mohammed, S.,
-Dwomoh, D., Annim, S., Stranges, S., Kandala, N. B.
-<i>Birth weight mediates the association of maternal undernutrition with child undernutrition prevalence in West Africa.</i>
-<a href="https://doi.org/10.1038/s41430-024-01453-5" target="_blank">DOI</a>
-</li>
+  <li>
+    <span class="author-highlight">Sewor, C.</span>, Obeng, A. A., Eliason,
+    S., Agbeno, E. K., &amp; Amegah, A. K. (2024).
+    Fruits and vegetables intake improves birth outcomes of women with
+    gestational diabetes mellitus and hypertensive disorders of pregnancy.
+    <i>BMC Nutrition, 10</i>(2).
+    <a href="https://doi.org/10.1186/s40795-023-00814-w" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1186/s40795-023-00814-w
+    </a>
+  </li>
 
-<br>
+  <li>
+    Valappil, H. C., Jayalakshmi, R., &amp;
+    <span class="author-highlight">Sewor, C.</span> (2023).
+    Intersectional inequalities in exclusive breastfeeding practices in India:
+    Analysis of National Family Health Survey-4.
+    <i>International Breastfeeding Journal, 18</i>(1), 44.
+    <a href="https://doi.org/10.1186/s13006-023-00577-x" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1186/s13006-023-00577-x
+    </a>
+  </li>
 
-<li>
-Amegah, A. & <strong style="color:red;">Sewor, C.</strong> (2024).
-<i>Chapter 61: Public Policy on Children's Environmental Health in Africa.</i>
-In Textbook of Children's Environmental Health (2nd ed.). Oxford University Press.
-<a href="https://doi.org/10.1093/oso/9780197662526.003.0061" target="_blank">DOI</a>
-</li>
+  <li>
+    Jayalakshmi, R., <span class="author-highlight">Sewor, C.</span>,
+    &amp; Kannan, S. (2023).
+    Intraindividual double burden of malnutrition among women (15–49 years)
+    in India, Myanmar, and Nepal: Evidence from the recent Demographic and
+    Health Surveys.
+    <i>European Journal of Clinical Nutrition</i>, 1–8.
+    <a href="https://doi.org/10.1038/s41430-023-01269-9" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1038/s41430-023-01269-9
+    </a>
+  </li>
 
-<br>
+  <li>
+    Dwomoh, D., <span class="author-highlight">Sewor, C.</span>, Annim, S. K.,
+    Stranges, S., Kandala, N. B., &amp; Amegah, A. K. (2022).
+    Do dietary practices and household environmental quality mediate
+    socio-economic inequalities in child undernutrition risk in West Africa?
+    <i>Public Health Nutrition</i>, 1–12.
+    <a href="https://doi.org/10.1017/S1368980022002269" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1017/S1368980022002269
+    </a>
+  </li>
 
-<li>
-<strong style="color:red;">Sewor, C.</strong>, Rajeev, J. (2023).
-<i>Trends of Risk Factors associated with Childhood Stunting and Anaemia in Ghana: Evidence from the Demographic Health Survey and Multiple Indicator Cluster Survey (2003–2017).</i>
-Public Health Nutrition, 27(1), e29.
-<a href="https://doi.org/10.1017/S1368980023002951" target="_blank">DOI</a>
-</li>
+  <li>
+    Dwomoh, D., <span class="author-highlight">Sewor, C.</span>, Mohammed, S.,
+    Annim, S., Stranges, S., Kandala, N., &amp; Amegah, A. (2022).
+    Secular trends in low birth weight and child undernutrition in West Africa:
+    Evidence from complex nationwide surveys, 1985–2019.
+    <i>Public Health Nutrition</i>, 1–29.
+    <a href="https://doi.org/10.1017/S1368980022000155" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1017/S1368980022000155
+    </a>
+  </li>
 
-<br>
+  <li>
+    Sakyi, S. A., Wilson, M. D., Adu, B., Opoku, S., Brewoo, A., Larbi, A.,
+    ... <span class="author-highlight">Sewor, C.</span>, &amp; Amoani, B. (2022).
+    Plasmodium falciparum coinfection is associated with improved IgE and IgG3
+    response against hookworm antigens.
+    <i>Health Science Reports, 5</i>(4), e672.
+    <a href="https://doi.org/10.1002/hsr2.672" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1002/hsr2.672
+    </a>
+  </li>
 
-<li>
-<strong style="color:red;">Sewor, C.*</strong>, Eliason, S., Jaakkola, J. J. K., & Amegah, A. K.* (2023).
-<i>Dietary Polycyclic Aromatic Hydrocarbon (PAH) consumption and risk of adverse birth outcomes: A systematic review and meta-analysis.</i>
-Environmental Health Perspectives, 132(1).
-https://doi.org/10.1289/EHP12922DOI</a>
-<strong><em>(*Joint First Author)</em></strong>
-</li>
+  <li>
+    Amoani, B., Nakotey, G. K., Sakyi, S. A., Pomeyie, K., &amp;
+    <span class="author-highlight">Sewor, C.</span> (2022).
+    Treatment failure, knowledge, attitude and practices related to
+    schistosomiasis and soil-transmitted helminthic infections among basic
+    school pupils. In <i>New Horizons for Schistosomiasis Research</i>.
+    IntechOpen.
+    <a href="https://doi.org/10.5772/intechopen.103904" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.5772/intechopen.103904
+    </a>
+  </li>
+
+  <li>
+    Amegah, A. K., <span class="author-highlight">Sewor, C.</span>, Obeng,
+    A. A., Coker, S. E., &amp; Eliason, S. (2021).
+    Vitamin D intake modifies the association of household air pollution
+    exposure with maternal disorders of pregnancy.
+    <i>Indoor Air, 2021</i>, 1–13.
+    <a href="https://doi.org/10.1111/ina.12963" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1111/ina.12963
+    </a>
+  </li>
+
+  <li>
+    <span class="author-highlight">Sewor, C.</span>, Obeng, A. A., &amp;
+    Amegah, A. K. (2021).
+    Commentary: The Ghana Urban Air Quality Project (GHAir): Bridging air
+    pollution data gaps in Ghana.
+    <i>Clean Air Journal, 31</i>(1).
+    <a href="https://doi.org/10.17159/caj/2021/31/1.11172" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.17159/caj/2021/31/1.11172
+    </a>
+  </li>
+
+  <li>
+    Amegah, A. K., <span class="author-highlight">Sewor, C.</span>,
+    &amp; Jaakkola, J. J. K. (2021).
+    Cadmium exposure and risk of adverse pregnancy and birth outcomes:
+    A systematic review and dose-response meta-analysis of cohort and
+    cohort-based case-control studies.
+    <i>Journal of Exposure Science &amp; Environmental Epidemiology</i>.
+    <a href="https://doi.org/10.1038/s41370-021-00289-6" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1038/s41370-021-00289-6
+    </a>
+  </li>
+
+  <li>
+    Amoani, B., Gyan, B., Sakyi, S. A., Abu, E. K., Nuvor, S. V., Barnes, P.,
+    ... <span class="author-highlight">Sewor, C.</span>, &amp; Adu, B. (2021).
+    Effect of hookworm infection and anthelmintic treatment on naturally
+    acquired antibody responses against the GMZ2 malaria vaccine candidate
+    and constituent antigens.
+    <i>BMC Infectious Diseases, 21</i>(1), 332.
+    <a href="https://doi.org/10.1186/s12879-021-06027-5" target="_blank" rel="noopener noreferrer">
+      https://doi.org/10.1186/s12879-021-06027-5
+    </a>
+  </li>
+
+  <li>
+    Amoani, B., Sakyi, S. A., Barnie, P. A., Pomeyie, K., Aniagyei, W.,
+    Opoku, S., ..., <span class="author-highlight">Sewor, C.</span>,
+    &amp; Saahene, R. O. (2021).
+    Effect of ART on cytokine profile amongst HIV patients:
+    A systematic review and meta-analysis.
+    <i>Focus on Medical Sciences Journal, 7</i>(3).
+    <a href="https://www.researchgate.net/publication/358266364_Effect_of_ART_on_Cytokine_Profile_amongst_HIV_Patients_A_Systematic_Review_and_Meta-Analysis"
+       target="_blank" rel="noopener noreferrer">
+      ResearchGate publication
+    </a>
+  </li>
+
+  <li>
+    Combey, R., Amekugee, E., <span class="author-highlight">Sewor, C.</span>,
+    Combey, T., &amp; Kwapong, P. (2020).
+    Impact of variation in air quality, humidity and temperature on four nest
+    entrance activities of <i>Hypotrigona gribodoi</i>.
+    <i>Archives of Applied Science Research, 12</i>(1), 1–16.
+    <a href="https://www.researchgate.net/publication/341610511_Impact_of_Variation_in_Air_Quality_Humidity_and_Temperature_on_Four_Nest_Entrance_Activities_of_Hypotrigona_gribodoi"
+       target="_blank" rel="noopener noreferrer">
+      ResearchGate publication
+    </a>
+  </li>
 
 </ul>

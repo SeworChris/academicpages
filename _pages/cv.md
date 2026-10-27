@@ -81,8 +81,7 @@ Work experience
     * Coordinating field data collection
     * Drafting manuscripts and mentoring students
   * Supervisor: Dr Kofi Amegah
-
-
+    
 Skills
 ======
 
